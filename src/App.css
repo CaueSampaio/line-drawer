@@ -1,0 +1,100 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.drawer {
+  width: 600px;
+  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.menu {
+  padding-bottom: 30px;
+}
+
+.new-line-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-line-form-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.baseline {
+  align-self: flex-end;
+}
+
+.new-value-label {
+  font-size: calc(10px + 1vmin);
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.new-value-input {
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 3px solid #f2f2f2;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #282c34;
+}
+
+.new-value-button {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background-color: #ffc400;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.run {
+  background-color: #38c700;
+}
+
+.new-value-button[disabled] {
+  background-color: #f2f2f2;
+}
